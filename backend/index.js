@@ -18,6 +18,7 @@ app.post("/api/ime", (req, res) => {
     res.send("Ime je:"+data.ime);
 });
 
+
 app.listen(port, function () {
     console.log('Node app is running on port '+ port);
 });
